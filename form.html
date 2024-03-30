@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item"><a href="italy.html">Итали</a></li>
+                <li class="nav-item"><a href="south_korea.html">Южная корея</a></li>
+                <li class="nav-item"><a href="america.html">Америка</a></li>
+                <li class="nav-item"><a href="about.html">Обо мне</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main-title">Оставтьте отзыв о моём сайте</h1>
+        <form action="https://echo.htmlacademy.ru" method="post">
+            <label for="name">Ваше имя</label>
+            <input type="text" placeholder="Ваше имя" id="name" required>
+            <label for="email">Ваш Email</label>
+            <input type="email" placeholder="Ваш Email" id="email" required>
+            <label for="review">Ваш отзыв</label>
+            <textarea name="review" id="review" cols="30" rows="10"></textarea>
+            <button type="submit">Отправить отзыв</button>
+        </form>
+    </main>
+</body>
+</html>
